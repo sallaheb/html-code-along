@@ -1,0 +1,92 @@
+* {
+  magrin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+*::selection {
+  color: white;
+  background-color: red;
+}
+body {
+ 
+  background: white;
+  max-width: 90%;
+  margin: auto;
+
+}
+
+#header {
+ text-align: center;
+ height: 100px; 
+ padding: 40px;
+ color: grey;
+}
+
+section {
+
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+
+}
+
+
+.card {
+
+  width: 300px;
+  height:auto;
+  border: 1px solid grey;
+  border-radius: 5x;
+  text-align: center;
+  background-color: aliceblue;
+  box-shadow: 5px 5px 5px 5px lightgrey;
+  padding: 15px;
+  opacity: 0.5;
+  transition: opacity 0.3s ease;
+  margin-bottom: 20px;
+ 
+}
+
+.card:hover {
+  opacity: 1;
+}
+
+.card img {
+
+  margin: 10px;
+  min-height: 25px;
+  width: 180px;
+  border-radius: 5px;
+
+}
+
+h2 {
+
+  text-decoration: underline;
+  font-size: 25px;
+
+}
+
+h6 {
+
+  text-decoration: underline;
+  font-size: 25px;
+
+}
+
+#penelope-list {
+  list-style-type: none;
+  margin: 5px;
+
+}
+
+a:visited {
+  color: brown;
+
+}
+
+h1::first-letter {
+  color: blue;
+}
